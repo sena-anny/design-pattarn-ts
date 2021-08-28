@@ -3,6 +3,7 @@ import { adopterFunc } from './adapter/main'
 import { templateMethodFunc } from './templateMethod/main'
 import { factoryMethodFunc } from './factoryMethod/main'
 import { singletonFunc } from './singleton/main'
+import { ticketMakerFunc } from './singleton/example/main'
 
 function start() {
   iteratorFunc()
@@ -10,6 +11,7 @@ function start() {
   templateMethodFunc()
   factoryMethodFunc()
   singletonFunc()
+  ticketMakerFunc()
 }
 
 start()
