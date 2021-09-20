@@ -1,4 +1,4 @@
-import { tripleFunc } from './singleton/example/main'
+import { builderFunc } from './builder/main'
 
 function start() {
   // iteratorFunc()
@@ -7,7 +7,9 @@ function start() {
   // factoryMethodFunc()
   // singletonFunc()
   // ticketMakerFunc()
-  tripleFunc()
+  // tripleFunc()
+  builderFunc('plain')
+  builderFunc('html')
 }
 
 start()
